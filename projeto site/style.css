@@ -1,0 +1,113 @@
+@charset "UTF-8";
+@font-face {
+  font-family: "Droid";
+  src: url(/fontes/idroid.otf) format(opentype);
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.container {
+  width: 100%;
+  background-color: #84e1ad;
+}
+.header {
+  background-image: linear-gradient(to bottom, #2fa060, #217345);
+  height: 200px;
+  width: auto;
+  text-align: center;
+  padding-top: 40px;
+}
+.navbar {
+  background-color: #217345;
+  padding: 10px;
+}
+.menu {
+  text-decoration: none;
+  color: white;
+  padding: 8px;
+  font-family: Arial, Helvetica, sans-serif;
+  border: 2px solid transparent;
+  transition: 1s;
+}
+.menu:hover {
+  border: 2px solid rgba(255, 255, 255, 0.421);
+  border-radius: 5px;
+  color: #123f27;
+  background-color: rgba(255, 255, 255, 0.421);
+}
+section {
+  background-color: aliceblue;
+  width: 75%;
+  margin: 0px auto 20px auto;
+  padding: 5px;
+  box-shadow: 3px 3px 11px 0px rgba(0, 0, 0, 0.341);
+}
+article {
+  border-radius: 10px;
+  margin: 8px;
+  background-color: #c1fadb;
+}
+.principal {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  color: white;
+  text-shadow: 0px -1px 3px white;
+}
+.extra {
+  padding: 10px;
+}
+.quadro {
+  border-radius: 10px 10px 0px 0px;
+  background-color: #217345;
+  padding: 5px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+}
+.list {
+  padding: 20px;
+  columns: 2;
+  column-count: 2;
+  list-style-type: "\2713";
+  font-family: Arial, Helvetica, sans-serif;
+}
+.video {
+  border: 20px solid #1a5c38;
+  width: 100%;
+  display: block;
+  margin: auto;
+}
+img {
+  width: 80%;
+}
+.center {
+  display: block;
+  margin: auto;
+}
+.title {
+  font-family: "Droid";
+  background-image: linear-gradient(to right, #84e1ac98, #82d8a72d);
+  font-size: 1.2em;
+  color: #123f27;
+  padding-left: 5px;
+}
+p {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: justify;
+  text-indent: 20px;
+  padding: 10px;
+}
+.destaque {
+  color: #123f27;
+  font-weight: bold;
+  text-decoration: none;
+}
+.footer {
+  background-color: #1a5c38;
+  height: 40px;
+}
+.textfooter {
+  text-align: center;
+  padding: 8px;
+}

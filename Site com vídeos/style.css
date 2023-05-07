@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  min-height: 100vh;
+  display: flex;
+  background-color: rgb(25, 25, 25);
+  gap: 0px 15px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  display: grid;
+  grid-template-areas:
+    "title title"
+    "item1 item2"
+    "item3 item4";
+}
+.title {
+  text-align: center;
+  color: #ffffff;
+  grid-area: title;
+}
+.item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.item1 {
+  grid-area: item1;
+}
+.item2 {
+  grid-area: item2;
+}
+.item3 {
+  grid-area: item3;
+}
+.item4 {
+  grid-area: item4;
+}
